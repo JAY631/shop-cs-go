@@ -1,0 +1,22 @@
+.footer{
+    color: white;
+    padding: 2em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Nunito", Sans-serif;
+    background-color: #222127;
+    margin-top: 27px;
+    &__right{
+        margin-left: 107px;
+        display: flex;
+        justify-content: space-between;
+        column-gap: 20px;
+    }
+    &__text{
+        margin-left: 5px;
+    }
+
+}
